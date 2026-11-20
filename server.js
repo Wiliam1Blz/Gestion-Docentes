@@ -1,9 +1,5 @@
 'use strict';
-/*
-  server.js - servidor principal de Gestión Docente CERTUS.
-  Aquí está todo el backend: validaciones, consultas, rutas de la API (con permisos por rol),
-  generación de reportes/constancias y el servidor HTTP que también sirve la carpeta public/.
-*/
+
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

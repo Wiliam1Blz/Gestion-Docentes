@@ -1,7 +1,3 @@
--- CERTUS · Gestión Docente — esquema MySQL 8 (InnoDB, utf8mb4)
--- El servidor ejecuta este archivo solo al iniciar (CREATE ... IF NOT EXISTS), pero también
--- puedes correrlo a mano en MySQL Workbench o phpMyAdmin. Cada sentencia termina en punto y coma.
-
 CREATE TABLE IF NOT EXISTS docentes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   codigo VARCHAR(20) NOT NULL UNIQUE,

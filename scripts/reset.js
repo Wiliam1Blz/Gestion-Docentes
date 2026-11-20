@@ -1,5 +1,5 @@
 'use strict';
-// reset.js: borra las tablas de la aplicación. Al volver a iniciar el servidor se recrean con los datos de demostración.
+
 require('../lib/env');
 const mysql = require('mysql2/promise');
 
