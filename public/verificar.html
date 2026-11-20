@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Verificar constancia · CERTUS</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+        <main class="verify">
+            <div class="brand" style="color: var(--teal); margin-bottom: 18px">
+                <img class="brand-logo" src="/img/logo-certus.png" alt="CERTUS" />
+                <div>
+                    <b style="font-family: var(--serif); font-size: 1.2rem">CERTUS</b
+                    ><span class="muted small">Verificación de constancias</span>
+                </div>
+            </div>
+            <div class="card">
+                <h1>¿Es auténtica esta constancia?</h1>
+                <p class="muted">
+                    Escribe el código que aparece al pie del documento y te confirmamos al instante.
+                </p>
+                <form id="f" class="field" style="margin-top: 14px">
+                    <label for="c">Código de verificación</label>
+                    <input id="c" placeholder="CERT-CAP-2026-001-0001AB" autocomplete="off" required />
+                    <div style="margin-top: 12px">
+                        <button class="btn primary" type="submit">Verificar</button>
+                    </div>
+                </form>
+                <div id="res" class="res" aria-live="polite"></div>
+            </div>
+        </main>
+        <script src="/js/verificar.js"></script>
+    </body>
+</html>

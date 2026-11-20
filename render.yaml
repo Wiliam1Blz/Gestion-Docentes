@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: certus-gestion-docente
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: DB_SSL
+        value: "true"
+      - key: DB_SKIP_CREATE
+        value: "true"
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: "4000"
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        sync: false
+      - key: SECRETO_SESION
+        generateValue: true
