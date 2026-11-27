@@ -5,7 +5,6 @@ capacitaciones, reportes descargables y **constancias verificables**.
 
  //implementar una plataforma web que centralice la gestión docente con acceso según el rol de cada usuario.
 
-
  Estructura 
 
 | Incluye |
