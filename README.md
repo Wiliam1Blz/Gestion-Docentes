@@ -7,14 +7,15 @@ capacitaciones, reportes descargables y **constancias verificables**.
 
  Estructura 
 
-| Incluye |
-|---|
-| Legajo docente |
-| Evaluaciones, encuestas y supervisión de clases | 
-| Capacitaciones con cupos, inscripción, asistencia y nota | 
-| Constancias en PDF con verificación pública | 
-| Reportes en Excel, CSV y PDF |
-| Roles, control de acceso y auditoría | 
+
+  | Incluye |
+  |---|
+  | Legajo docente |
+  | Evaluaciones, encuestas y supervisión de clases | 
+  | Capacitaciones con cupos, inscripción, asistencia y nota | 
+  | Constancias en PDF con verificación pública | 
+  | Reportes en Excel, CSV y PDF |
+  | Roles, control de acceso y auditoría | 
 
 
 
